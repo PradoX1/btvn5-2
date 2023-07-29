@@ -19,6 +19,7 @@ public class Main {
         String address  = sc.nextLine();
         System.out.println("Enter experience: ");
         double experience= Double.parseDouble(sc.nextLine());
+        String[] employeeSave = {id,name,address, String.valueOf(age), String.valueOf(experience)};
         Employee employee = new Employee(id,name,address,age,experience);
         System.out.println(employee);
     }
